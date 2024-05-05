@@ -1,0 +1,16 @@
+Number of questions: 13
+Number of singleselect questions: 6
+Number of multiselect questions: 7
+Number of answer choices: 46
+Number of correct answers: 27
+Total marks: 27
+Number of 1 mark questions: 6
+Number of 2 mark questions: 0
+Number of 3 mark questions: 7
+Number of 4 mark questions: 0
+Number of 5 mark questions: 0
+Number of 6 mark questions: 0
+Number of 7 mark questions: 0
+Number of 8 mark questions: 0
+Found Error at line 102 : < multiselect marks="9">
+ERROR: MARKS OUT OF BOUNDS (PERMITTED RANGE IS [2-8]).

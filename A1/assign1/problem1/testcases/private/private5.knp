@@ -1,0 +1,14 @@
+BEGIN
+    integer procedure FIB(n);
+    VALUE n;
+    BEGIN
+        IF n LEQ 1 then
+            FIB := n;
+        ELSE
+            FIB := FIB(n - 1) + FIB(n - 2);
+    END;
+
+    INTEGER i;
+    FOR i := 0 STEP 1 UNTIL 9 DO
+        PRINT("Fib(', i, ') = ", FIB(i));
+END

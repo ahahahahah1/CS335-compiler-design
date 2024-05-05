@@ -1,0 +1,21 @@
+BEGIN
+    INTEGER x, y;
+    x := 10;
+
+    BEGIN
+        INTEGER x;
+        x := 5;
+        y := x * 2;
+    END;
+
+    PRINT("Value of y is ", y);
+END
+{
+    multiline
+    comment
+    are
+    better
+}
+DO
+WHILE
+while

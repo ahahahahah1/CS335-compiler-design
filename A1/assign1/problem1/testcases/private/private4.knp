@@ -1,0 +1,6 @@
+BEGIN
+    INTEGER i;
+
+    FOR i := 1 STEP 1 UNTIL 5 DO
+        PRINT("Iteration ", i);
+END

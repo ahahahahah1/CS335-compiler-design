@@ -1,0 +1,14 @@
+BEGIN
+    INTEGER PROCEDURE FACTORIAL(n);
+    VALUE n;
+    BEGIN
+        IF n EQL 0 THEN
+            FACTORIAL := 1;
+        ELSE
+            FACTORIAL := n * FACTORIAL(n - 1);
+    END;
+
+    INTEGER x;
+    x := 5;
+    PRINT("Factorial of ", x, " is ", FACTORIAL(x));
+END

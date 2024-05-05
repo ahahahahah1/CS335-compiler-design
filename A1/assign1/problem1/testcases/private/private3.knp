@@ -1,0 +1,8 @@
+BEGIN
+    INTEGER x;
+
+    PRINT("Enter a number: ");
+    GET(x);
+
+    PRINT("You entered: ", x);
+END
